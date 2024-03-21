@@ -1,8 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './Components/Header/Header';
 import Aboutus from './Components/AboutUs/Aboutus';
-import BannerSection from './Components/Banner/Banner';
 import { Hero } from './Components/Banner/Banner';
 import { StreamlinedExperience } from './Components/Services/Services';
 import { MoreFeatures } from './Components/MoreFeatures/MoreFeatures';

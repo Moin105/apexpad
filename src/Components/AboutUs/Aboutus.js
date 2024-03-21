@@ -1,5 +1,4 @@
 import React from 'react'
-// import Responsive from './Slider'
 import ResponsiveCarousel from './Slider'
 import { useRef } from "react";
 import { useScroll, useTransform, motion } from "framer-motion";
