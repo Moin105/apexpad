@@ -3,20 +3,6 @@ import {
   StackedCarousel,
   ResponsiveContainer,
 } from "react-stacked-center-carousel";
-// import pickle1 from "../../Assets/pickle1.png";
-// import pickle2 from "../../Assets/pickle2.png";
-// import './slider.css'
-// import pickle3 from "../../Assets/pickle3.png";
-// import pickle4 from "../../Assets/pickle4.png";
-// import pickle5 from "../../Assets/pickle5.png";
-// import pickle6 from "../../Assets/pickle6.png";
-// import pickle7 from "../../Assets/pickle7.jpeg";
-// import pickle8 from "../../Assets/pickle8.png";
-
-// import pickle9 from "../../Assets/pickle9.png";
-// import pickle10 from "../../Assets/pickle10.jpeg";
-// import Fab from "@material-ui/core/Fab";
-// import { BsArrowLeft, BsArrowRight } from "react-icons/bs";
 
 
 
@@ -70,9 +56,9 @@ export const data = [
   ];
 
 
-export default function ResponsiveCarousel(props) {
+export default function ResponsiveCarousel() {
   const ref = React.useRef();
-  const [autoMoveInterval, setAutoMoveInterval] = useState(null);
+//   const [autoMoveInterval, setAutoMoveInterval] = useState(null);
 
   useEffect(() => {
     // Start auto-move interval when component mounts
@@ -81,7 +67,7 @@ export default function ResponsiveCarousel(props) {
       ref.current?.goNext();
     }, 3000); // Adjust the interval duration as needed (e.g., 3000 ms for 3 seconds)
 
-    setAutoMoveInterval(intervalId);
+    // setAutoMoveInterval(intervalId);
 
     // Clean up interval when component unmounts
     return () => clearInterval(intervalId);
@@ -143,7 +129,7 @@ export default function ResponsiveCarousel(props) {
 }
 export const Card = React.memo(function (props) {
     const { data, dataIndex } = props;
-    const { imageUrl } = data[dataIndex];
+    // const { imageUrl } = data[dataIndex];
     return (
       <div
         style={{

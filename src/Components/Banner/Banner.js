@@ -52,7 +52,7 @@ export const Hero = () => {
         className="fixed left-1/2 z-10 flex flex-col items-center"
         style={{ position, scale, x: "-50%" }}
       >
-      <img src={Logo} style={{width:"300px",height:"250px",objectFit:"contain"}}/>
+      <img src={Logo} style={{width:"300px",height:"250px",objectFit:"contain"}} alt="apexpad"/>
        <motion.p
           style={{
             y: "100%",

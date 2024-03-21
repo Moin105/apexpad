@@ -12,8 +12,8 @@ function Header() {
         </figure>
         <nav>
             <ul>
-                <li><a href="#"style={{fontSize:"26px"}} ><FaXTwitter/></a></li>
-                <li><a href="#"style={{fontSize:"26px"}} ><FaDiscord/></a></li>
+                <li><a href="twitter.com" style={{fontSize:"26px"}} ><FaXTwitter/></a></li>
+                <li><a href="google.com" style={{fontSize:"26px"}} ><FaDiscord/></a></li>
                 {/* <li><a href="#">Features</a></li>
                 <li><a href="#">Services</a></li>
                 <li><a href="#">Roadmap</a></li> */}
