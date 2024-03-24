@@ -34,6 +34,13 @@ header{
                     color: #fff;
                     font-weight: 500;
                     font-size: 1.2rem;
+                    button{
+                        border: 2px solid blueviolet;
+                        padding: 10px 10px ;
+                        background: transparent;
+                        color: white;
+                        border-radius: 40px;
+                    }
                 }
             }
         }

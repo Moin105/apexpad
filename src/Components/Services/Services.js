@@ -63,7 +63,7 @@ export const StreamlinedExperience = () => {
             Apexpad Services
             {/* Defi. */}
           </motion.p>
-          <motion.p className="text-[1.8rem] pt-8 text-center	">
+          <motion.p className="text-[1.8rem] pt-8 text-justify	">
           ApexPad (formerly SolTools) is a platform dedicated to revolutionalizing <br></br>the DeFi space. Our team of experienced blockchain professionals and enthusiasts<br></br> is driven by a shared vision for the potential of blockchain technology.<br></br>
            Through our products and services, we provide a comprehensive and user-friendly <br></br>support ecosystem for the safety of decentralized finance.
           </motion.p>

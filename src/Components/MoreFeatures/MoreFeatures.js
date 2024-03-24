@@ -14,20 +14,20 @@ const content = [
   {
     icon: card1,
     title: "LP & Token Lockers ",
-    first: "Launch Button",
-    second:"Docs"
+    first: "Launch App",
+    second:"Read More"
   },
   {
     icon: card2,
     title: "Token Launchpad",
     first:"Coming Soon",
-    second:'Docs'
+    second:'Read More'
   },
   {
     icon: card3,
     title: "Token Creator",
     first:"Coming Soon ",
-    second:'Docs'
+    second:'Read More'
 
   },
 ];
@@ -61,13 +61,13 @@ export const MoreFeatures = () => {
       
         </div>
       ))}
-      <div className="mx-auto flex space-x-0 w-full max-w-[120rem] justify-center flex-wrap	 gap-40 opacity-50 pt-96">
-           <img src={solana} className="h-50 w-96 object-contain" />
-           <img src={near} className="h-50 w-96 object-contain" />
-            <img src={injective} className="h-96 w-96 object-contain " />
+      <div className="mx-auto flex space-x-0 w-full max-w-[120rem] justify-center flex-wrap	 gap-40 opacity-50 ">
+           <img src={solana} className="h-40 w-96 object-contain" />
+           <img src={near} className="h-40 w-96 object-contain" />
+            <img src={injective} className="h-40 w-96 object-contain " />
       </div>
       <div className="flex justify-center  opacity-50">
-      <img src={sei} className="h-50 w-96 object-contain" />
+      <img src={sei} className="h-40 w-96 object-contain" />
 
       </div>
     </motion.section>

@@ -1,98 +1,18 @@
-.relative {
-    position: relative;
-  }
+
   
-  .mb-8rem {
-    margin-bottom: 8rem;
-  }
-  
-  .h-screen {
-    height: 100vh;
-  }
-  
-  .py-16 {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-  }
-  
-  .text-white {
-    color: white;
-  }
-  .center-items{
+  .banner-buttons{
     display: flex;
-    
+    width: 100%;
+    gap: 20px;
+    padding: 10px 0px 0px 50px;
+    justify-content: flex-start;
+    button{
+      border: 2px solid blueviolet;
+      padding: 10px 13px ;
+      background: transparent;
+      color: white;
+      border-radius: 40px;
+      font-size: 18px;
+
   }
-  .before {
-    &:before {
-      content: "";
-      pointer-events: none;
-      position: fixed;
-      inset: 0;
-      z-index: 0;
-      background: radial-gradient(circle farthest-side at var(--x, 100px) var(--y, 100px), var(rgb(33, 33, 111)) 0%, transparent 100%);
-      opacity: 0.4;
-    }
   }
-  .fixed-center {
-    position: fixed;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 10;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .mb-12 {
-    margin-bottom: 3rem; /* Tailwind's mb-12 is equivalent to 3rem */
-  }
-  
-  .text-center {
-    text-align: center;
-  }
-  
-  .font-heading {
-    font-family: 'Your Heading Font', sans-serif; /* Replace 'Your Heading Font' with your actual font */
-  }
-  
-  .text-3xl {
-    font-size: 1.875rem; /* Tailwind's text-3xl is equivalent to 1.875rem */
-    line-height: 1; /* You can adjust this if needed */
-  }
-  
-  .leading {
-    line-height: 1; /* You can adjust this if needed */
-  }
-  
-  .flex {
-    display: flex;
-  }
-  
-  .items-center {
-    align-items: center;
-  }
-  
-  .text-lg {
-    font-size: 1.125rem; /* Tailwind's text-lg is equivalent to 1.125rem */
-  }
-  
-  .text-primary {
-    color: red /* Replace '#your-primary-color' with your actual primary color */
-  }
-  
-  .mb-8 {
-    margin-bottom: 2rem; /* Tailwind's mb-8 is equivalent to 2rem */
-  }
-  
-  .text-xs {
-    font-size: 0.75rem; /* Tailwind's text-xs is equivalent to 0.75rem */
-  }
-  
-  .font-light {
-    font-weight: 300; /* Tailwind's font-light is equivalent to 300 */
-  }
-  
-  .text-text {
-    color: blue; /* Replace '#your-text-color' with your actual text color */
-  }
-  

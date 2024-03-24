@@ -15,7 +15,7 @@ function App() {
      {/* <div className="moving-gradient"></div> */}
      <StreamlinedExperience/>
      <MoreFeatures/>
-     <Aboutus/>
+     {/* <Aboutus/> */}
      <Footer/>
     </div>
   );

@@ -3,7 +3,7 @@ import { useScroll, useTransform, motion } from "framer-motion";
 import Logo from "../../Assets/logo.png";
 import coin from '../../Assets/coin.png'
 import chart from '../../Assets/Clay.png'
-
+import './banner.css'
 export const Hero = () => {
   const targetRef = useRef(null);
   const { scrollYProgress } = useScroll({
@@ -59,6 +59,10 @@ export const Hero = () => {
         <p className="text-white text-2xl w-full text-left	mt-10  pl-20">
 A Suite of Reliable And Secure DeFi Tools 
         </p>
+        <div className="banner-buttons">
+                <button>Launch App</button>
+                <button>Documentation</button>
+        </div>
         </div>
         <div className=" w-2/4	 flex flex-col items-center ">
         <div className="flex justify-center items-center space-x-8">
