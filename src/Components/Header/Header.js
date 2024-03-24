@@ -1,19 +1,21 @@
 import React from 'react'
 import Logo from '../../Assets/logo.png'
 import './style.css'
-import { FaXTwitter } from "react-icons/fa6";
-import { FaDiscord } from "react-icons/fa";
+
 
 function Header() {
   return (
     <header>
-        <figure>
-            <img src={Logo} alt="Ironhack logo" />
-        </figure>
+        <div className='figure'>
+            <img src={Logo} alt="ApexPad logo" />
+            <h2>ApexPad</h2>
+        </div>
         <nav>
             <ul>
-                <li><a href="twitter.com" style={{fontSize:"26px"}} ><FaXTwitter/></a></li>
-                <li><a href="google.com" style={{fontSize:"26px"}} ><FaDiscord/></a></li>
+                <li><a href="twitter.com" style={{fontSize:"17px"}} >Token Creator</a></li>
+                <li><a href="google.com" style={{fontSize:"17px"}} >Launchpad</a></li>
+                <li><a href="twitter.com" style={{fontSize:"17px"}} >Lockers</a></li>
+                <li><a href="google.com" style={{fontSize:"17px"}} >Documentation</a></li>
                 {/* <li><a href="#">Features</a></li>
                 <li><a href="#">Services</a></li>
                 <li><a href="#">Roadmap</a></li> */}

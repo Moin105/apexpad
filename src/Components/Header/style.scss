@@ -2,12 +2,19 @@ header{
     display: flex;
     justify-content: space-between;
     margin: 15px 2%;
-    figure{
+    .figure{
         margin: 0;
+        gap: 5px;
+        font-size: 29px;
+        display: flex;
+        font-style: italic;
+        color: white;
+        align-items: center;
+
         img{
             object-fit: contain;
             max-width: 40px;
-
+            width: 40px;
         }
     }
     nav{

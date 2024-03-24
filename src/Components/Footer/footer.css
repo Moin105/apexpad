@@ -1,0 +1,45 @@
+.footer {
+  display: flex;
+  background-color: #1e0e2c;
+  padding: 30px 0px;
+}
+.footer .container {
+  display: flex;
+  max-width: 90%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .container .figure {
+  margin: 0;
+  gap: 5px;
+  font-size: 19px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.footer .container .figure img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  max-width: 40px;
+  width: 40px;
+}
+.footer .container nav {
+  display: flex;
+}
+.footer .container nav ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  gap: 30px;
+  align-items: center;
+}
+.footer .container nav ul li {
+  list-style: none;
+}
+.footer .container nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.2rem;
+}/*# sourceMappingURL=footer.css.map */

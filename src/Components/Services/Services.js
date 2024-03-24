@@ -2,11 +2,9 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 const stylesWithCssVar = (styles) => styles;
 
-
 export const StreamlinedExperience = () => {
   const targetRef = useRef(null);
   const { scrollYProgress } = useScroll({
-
     target: targetRef,
     offset: ["start end", "end end"],
   });
@@ -33,7 +31,7 @@ export const StreamlinedExperience = () => {
   });
   return (
     <motion.section
-        style={styles}
+      style={styles}
       ref={targetRef}
       className="mt-[50vh] flex h-[400vh] items-start justify-start"
     >
@@ -52,20 +50,25 @@ export const StreamlinedExperience = () => {
         >
           Apexpad
         </motion.p>
-
-        <motion.p
+        <motion.div
           style={{
             opacity: finalTextOpacity,
             scale: finalTextScale,
             y: "-50%",
             x: "-50%",
           }}
-          className="absolute left-1/2 top-1/2 text-[8.8rem] leading-tight text-white"
+          className="absolute left-1/2 top-1/2  leading-tight text-white"
         >
-          Apexpad Services
-          <br />
-          {/* Defi. */}
-        </motion.p>
+          <motion.p className="text-[8.8rem]">
+            Apexpad Services
+            {/* Defi. */}
+          </motion.p>
+          <motion.p className="text-[1.8rem] pt-8 text-center	">
+          ApexPad (formerly SolTools) is a platform dedicated to revolutionalizing <br></br>the DeFi space. Our team of experienced blockchain professionals and enthusiasts<br></br> is driven by a shared vision for the potential of blockchain technology.<br></br>
+           Through our products and services, we provide a comprehensive and user-friendly <br></br>support ecosystem for the safety of decentralized finance.
+          </motion.p>
+        </motion.div>
+
         <span className="absolute left-[calc(50%*var(--scale)+50%)] top-0 z-10 h-full w-[50vw] origin-left scale-[var(--scale)] bg-background opacity-[var(--opacity-border)]" />
         <span className="absolute left-[calc(50%*var(--scale)+50%-(2.5rem*var(--scale)))] top-0 z-[12] h-full w-[50vw] origin-left scale-[var(--scale)] border-l-[2.5rem] border-[#7b61ff] opacity-[var(--opacity-border)]" />
       </div>

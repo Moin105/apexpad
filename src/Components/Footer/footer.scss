@@ -1,0 +1,44 @@
+.footer{
+    display: flex;
+    background-color: #1e0e2c;
+    padding: 30px 0px;
+.container{
+    display: flex;
+    max-width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    .figure{
+        margin: 0;
+        gap: 5px;
+        font-size: 19px;
+        display: flex;
+        align-items: center;
+        color: white;
+        img{
+            object-fit: contain;
+            max-width: 40px;
+            width: 40px;
+        }
+    }
+    nav{
+        display: flex;
+        ul{
+            display: flex;
+            padding: 0;
+            margin: 0;
+            gap: 30px;
+            align-items: center;
+            li{
+                list-style: none;
+                a{
+                    text-decoration: none;
+                    color: #fff;
+                    font-weight: 500;
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+}
+}

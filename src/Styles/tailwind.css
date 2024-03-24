@@ -13,4 +13,34 @@
     }
   }
   
+  @keyframes move-gradient {
+    0% {
+      transform: translate(-50%, -50%);
+    }
+    100% {
+      transform: translate(50%, 50%);
+    }
+  }
+  
+  .animate-move-gradient {
+    animation: move-gradient 3s infinite alternate-reverse;
+  }
+  
+  .hover:animate-none:hover .animate-move-gradient {
+    animation: none;
+  }
+  @keyframes half-rotate-up-down {
+    0% {
+      transform: translateY(0) rotate(360deg);
+    }
+    
+    100% {
+      transform: translateY(0) rotate(0);
+    }
+  }
+  
+  .animate-half-rotate-up-down {
+    animation: half-rotate-up-down 3s infinite alternate;
+  }
+  
   

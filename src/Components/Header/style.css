@@ -3,13 +3,20 @@ header {
   justify-content: space-between;
   margin: 15px 2%;
 }
-header figure {
+header .figure {
   margin: 0;
+  gap: 5px;
+  font-size: 29px;
+  display: flex;
+  font-style: italic;
+  color: white;
+  align-items: center;
 }
-header figure img {
+header .figure img {
   -o-object-fit: contain;
      object-fit: contain;
   max-width: 40px;
+  width: 40px;
 }
 header nav {
   display: flex;
