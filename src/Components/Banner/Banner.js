@@ -1,9 +1,9 @@
 import React, { useEffect, useRef } from "react";
 import { useScroll, useTransform, motion } from "framer-motion";
 import Logo from "../../Assets/logo.png";
-import coin from '../../Assets/coin.png'
-import chart from '../../Assets/Clay.png'
-import './banner.css'
+import coin from "../../Assets/coin.png";
+import chart from "../../Assets/Clay.png";
+import "./banner.css";
 export const Hero = () => {
   const targetRef = useRef(null);
   const { scrollYProgress } = useScroll({
@@ -49,30 +49,42 @@ export const Hero = () => {
     <>
       <motion.div
         className="h-screen flex justify-center items-center w-full  "
-        style={{ opacity, scale,  zIndex: -1 }}
+        style={{ opacity, scale, zIndex: -1 }}
       >
         <div className=" w-2/4	 flex flex-col items-center">
-        <h1 className="text-white text-8xl text-left	w-full   pl-20" >
-          Welcome To <br></br> ApexPad 
-        </h1>
+          <h1 className="text-white text-8xl text-left	w-full   pl-20">
+            Welcome To <br></br> ApexPad
+          </h1>
 
-        <p className="text-white text-2xl w-full text-left	mt-10  pl-20">
-A Suite of Reliable And Secure DeFi Tools 
-        </p>
-        <div className="banner-buttons">
-                <button className="text-white bg-gradient-to-r from-purple-500 to-purple-300 hover:bg-gradient-to-l  focus:outline-none  font-medium rounded-lg text-base px-5 mt-2 py-2.5 text-center">Launch App</button>
-                <button className="text-white bg-gradient-to-r from-purple-500 to-purple-300 hover:bg-gradient-to-l  focus:outline-none  font-medium rounded-lg text-base px-5 mt-2 py-2.5 text-center">Documentation</button>
-        </div>
+          <p className="text-white text-2xl w-full text-left	mt-10  pl-20">
+            A Suite of Reliable And Secure DeFi Tools
+          </p>
+          <div className="banner-buttons">
+            <button className="text-white bg-gradient-to-r from-purple-500 to-purple-300 hover:bg-gradient-to-l  focus:outline-none  font-medium rounded-lg text-base px-5 mt-2 py-2.5 text-center">
+              Launch App
+            </button>
+            <button className="text-white bg-gradient-to-r from-purple-500 to-purple-300 hover:bg-gradient-to-l  focus:outline-none  font-medium rounded-lg text-base px-5 mt-2 py-2.5 text-center">
+              Documentation
+            </button>
+          </div>
         </div>
         <div className=" w-2/4	 flex flex-col items-center ">
-        <div className="flex justify-center items-center space-x-8">
-      <div className="relative h-96 w-96">
-        <img src={chart} className="absolute h-full w-full object-contain animate-half-rotate-up-down" alt="chart" />
-      </div>
-      <div className="relative h-96 w-96">
-        <img src={coin} className="absolute h-full w-full object-contain animate-half-rotate-up-down" alt="coin" />
-      </div>
-    </div>
+          <div className="flex justify-center items-center space-x-8">
+            <div className="relative h-96 w-96">
+              <img
+                src={chart}
+                className="absolute h-full w-full object-contain animate-half-rotate-up-down"
+                alt="chart"
+              />
+            </div>
+            <div className="relative h-96 w-96">
+              <img
+                src={coin}
+                className="absolute h-full w-full object-contain animate-half-rotate-up-down"
+                alt="coin"
+              />
+            </div>
+          </div>
         </div>
       </motion.div>
 
