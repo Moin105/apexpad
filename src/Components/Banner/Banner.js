@@ -49,7 +49,7 @@ export const Hero = () => {
     <>
       <motion.div
         className="h-screen flex justify-center items-center w-full  "
-        style={{ opacity, scale, y: "-10%", zIndex: -1 }}
+        style={{ opacity, scale,  zIndex: -1 }}
       >
         <div className=" w-2/4	 flex flex-col items-center">
         <h1 className="text-white text-8xl text-left	w-full   pl-20" >
@@ -60,8 +60,8 @@ export const Hero = () => {
 A Suite of Reliable And Secure DeFi Tools 
         </p>
         <div className="banner-buttons">
-                <button>Launch App</button>
-                <button>Documentation</button>
+                <button className="text-white bg-gradient-to-r from-purple-500 to-purple-300 hover:bg-gradient-to-l  focus:outline-none  font-medium rounded-lg text-base px-5 mt-2 py-2.5 text-center">Launch App</button>
+                <button className="text-white bg-gradient-to-r from-purple-500 to-purple-300 hover:bg-gradient-to-l  focus:outline-none  font-medium rounded-lg text-base px-5 mt-2 py-2.5 text-center">Documentation</button>
         </div>
         </div>
         <div className=" w-2/4	 flex flex-col items-center ">

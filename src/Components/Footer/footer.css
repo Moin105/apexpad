@@ -8,31 +8,36 @@
   max-width: 90%;
   margin: 0 auto;
   justify-content: space-between;
-  align-items: center;
 }
 .footer .container .figure {
   margin: 0;
   gap: 5px;
   font-size: 19px;
   display: flex;
-  align-items: center;
   color: white;
+}
+.footer .container .figure h2 {
+  font-size: 25px;
 }
 .footer .container .figure img {
   -o-object-fit: contain;
      object-fit: contain;
   max-width: 40px;
+  height: 40px;
   width: 40px;
 }
 .footer .container nav {
   display: flex;
+  gap: 40px;
+}
+.footer .container nav .ul {
+  flex-direction: column;
 }
 .footer .container nav ul {
   display: flex;
   padding: 0;
   margin: 0;
-  gap: 30px;
-  align-items: center;
+  gap: 20px;
 }
 .footer .container nav ul li {
   list-style: none;

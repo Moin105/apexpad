@@ -7,28 +7,36 @@
     max-width: 90%;
     margin: 0 auto;
     justify-content: space-between;
-    align-items: center;
+    // align-items: center;
     .figure{
         margin: 0;
         gap: 5px;
         font-size: 19px;
         display: flex;
-        align-items: center;
+        // align-items: center;
         color: white;
+        h2{
+            font-size: 25px;
+        }
         img{
             object-fit: contain;
             max-width: 40px;
+            height: 40px;
             width: 40px;
         }
     }
     nav{
         display: flex;
+        gap: 40px;
+        .ul{
+            flex-direction: column;
+        }
         ul{
             display: flex;
             padding: 0;
             margin: 0;
-            gap: 30px;
-            align-items: center;
+            gap: 20px;
+            // align-items: center;
             li{
                 list-style: none;
                 a{

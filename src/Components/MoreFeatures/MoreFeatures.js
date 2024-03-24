@@ -46,10 +46,10 @@ export const MoreFeatures = () => {
     <motion.section
       ref={targetRef}
       style={{ opacity, y }}
-      className="mx-auto flex space-x-0 w-full max-w-[120rem] justify-center flex-wrap	 gap-20 py-96"
+      className="mx-auto flex space-x-0 w-full max-w-[120rem] justify-center flex-wrap	 gap-20 pb-40"
     >
       {content.map(({ icon: Icon, title, text ,first,second}) => (
-        <div key={title} style={{fontSize:"22px"}}  className="border-4 border-purple-600 hover:border-blue-200 transition-colors duration-300 flex flex-col items-center justify-center p-8 py-16 rounded-md border">
+        <div key={title} style={{fontSize:"22px"}}  className="border-4 border-purple-600 hover:border-blue-200 transition-colors duration-300 flex flex-col items-center justify-center p-8 py-16 rounded-md ">
           <span className="padding-8 mb-4 flex h-32 w-32 items-center justify-center rounded-[1.8rem] bg-[#fff]">
             <img className="h-20 w-20 object-contain	" src={Icon} />
           </span>

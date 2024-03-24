@@ -33,7 +33,7 @@ export const StreamlinedExperience = () => {
     <motion.section
       style={styles}
       ref={targetRef}
-      className="mt-[50vh] flex h-[400vh] items-start justify-start"
+      className=" flex h-[300vh] items-start justify-start"
     >
       <div className="sticky top-1/2 left-1/2 min-h-[50rem] min-w-[50rem] -translate-x-1/2 -translate-y-1/2 whitespace-nowrap before:absolute before:inset-0 before:scale-[var(--scale)] before:border-[2.5rem] before:border-[#7b61ff] before:opacity-[var(--opacity-border)]">
         <motion.p

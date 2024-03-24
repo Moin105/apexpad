@@ -1,6 +1,7 @@
 import React from 'react'
 import Logo from '../../Assets/logo.png'
 import './style.css'
+import Dropdown from '../Dropdown/Dropdown'
 
 
 function Header() {
@@ -12,10 +13,15 @@ function Header() {
         </div>
         <nav>
             <ul>
-                <li><a href="twitter.com" style={{fontSize:"17px"}} >Token Creator</a></li>
-                <li><a href="google.com" style={{fontSize:"17px"}} >Launchpad</a></li>
-                <li><a href="twitter.com" style={{fontSize:"17px"}} >Lockers</a></li>
-                <li><a href="google.com" style={{fontSize:"17px"}} ><button>Launch App</button></a></li>
+            <Dropdown text="Token Creator" options={["Coming Soon"]} />
+            <Dropdown text="Launchpad" options={["Coming Soon"]} />
+            <Dropdown text="Lockers" options={["Solana", "Injective Protocol", "Near","Sei"]} />
+            {/* <Dropdown text="Token Creator" options={["Option 1", "Option 2", "Option 3"]} /> */}
+
+                {/* <li><a href="twitter.com" style={{fontSize:"17px"}} >Token Creator</a></li> */}
+                {/* <li><a href="google.com" style={{fontSize:"17px"}} >Launchpad</a></li>
+                <li><a href="twitter.com" style={{fontSize:"17px"}} >Lockers</a></li> */}
+                <li><a href="google.com" style={{fontSize:"15px"}} ><button className=' hover:text-indigo-500 focus:outline-none focus:ring-1 focus:ring-indigo-500'>Launch App</button></a></li>
                 {/* <li><a href="#">Features</a></li>
                 <li><a href="#">Services</a></li>
                 <li><a href="#">Roadmap</a></li> */}
