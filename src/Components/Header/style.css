@@ -11,6 +11,9 @@
   background-color: blueviolet;
   z-index: 111;
 }
+.top .ew {
+  height: 20px;
+}
 .top span {
   position: absolute;
   right: 10px;

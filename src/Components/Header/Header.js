@@ -10,7 +10,9 @@ function Header() {
     <div style={{display:'block'}}>
 
  {show ?   <div className='top'>
-            <img src={prevlogo} alt="ApexPad logo" /> is now ApexPad
+            <img src={prevlogo} alt="ApexPad logo" /> is now
+            <img src={Logo} alt="ApexPad logo"  className='ew'/>
+             ApexPad
             <span onClick={()=>{setShow(false)}}>
               <MdClose/>
             </span>
