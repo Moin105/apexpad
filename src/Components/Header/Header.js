@@ -2,10 +2,19 @@ import React from 'react'
 import Logo from '../../Assets/logo.png'
 import './style.css'
 import Dropdown from '../Dropdown/Dropdown'
-
-
+import prevlogo from '../../Assets/soltools.png'
+import { MdClose } from 'react-icons/md'
 function Header() {
+  const  [show,setShow]= React.useState(true)
   return (
+    <div style={{display:'block'}}>
+
+ {show ?   <div className='top'>
+            <img src={prevlogo} alt="ApexPad logo" /> is now ApexPad
+            <span onClick={()=>{setShow(false)}}>
+              <MdClose/>
+            </span>
+    </div>: ''}
     <header>
         <div className='figure'>
             <img src={Logo} alt="ApexPad logo" />
@@ -29,6 +38,7 @@ function Header() {
             </ul>
         </nav>
     </header>
+    </div>
   )
 }
 
