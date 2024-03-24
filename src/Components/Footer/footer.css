@@ -11,9 +11,10 @@
 }
 .footer .container .figure {
   margin: 0;
-  gap: 5px;
+  gap: 20px;
   font-size: 19px;
   display: flex;
+  flex-direction: column;
   color: white;
 }
 .footer .container .figure h2 {
@@ -25,6 +26,10 @@
   max-width: 40px;
   height: 40px;
   width: 40px;
+}
+.footer .container .figure ul {
+  display: flex;
+  gap: 20px;
 }
 .footer .container nav {
   display: flex;

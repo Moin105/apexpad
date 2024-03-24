@@ -51,13 +51,14 @@ export const Hero = () => {
         className="h-screen flex justify-center items-center w-full  "
         style={{ opacity, scale, zIndex: -1 }}
       >
-        <div className=" w-2/4	 flex flex-col items-center">
-          <h1 className="text-white text-8xl text-left	w-full   pl-20">
+        <div className=" w-2/4	gap-6 flex flex-col items-center">
+          <h1 className="text-white text-8xl text-left font-extrabold	w-full  pl-20">
             Welcome To <br></br> ApexPad
           </h1>
 
-          <p className="text-white text-2xl w-full text-left	mt-10  pl-20">
-            A Suite of Reliable And Secure DeFi Tools
+          <p className="text-white  w-full text-left	mt-10  pl-20" style={{fontSize:"17px"}}>
+          A Suite of Reliable And Secure DeFi Tools.
+We provide a range of innovative, dependable and decentralized infrastructure on Solana, Injective, Sei And Near Protocol blockchains
           </p>
           <div className="banner-buttons">
             <button className="text-white bg-gradient-to-r from-purple-500 to-purple-300 hover:bg-gradient-to-l  focus:outline-none  font-medium rounded-lg text-base px-5 mt-2 py-2.5 text-center">

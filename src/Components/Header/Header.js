@@ -22,7 +22,7 @@ function Header() {
 
                 {/* <li><a href="twitter.com" style={{fontSize:"17px"}} >Token Creator</a></li> */}
                 {/* <li><a href="google.com" style={{fontSize:"17px"}} >Launchpad</a></li>*/}
-                <li><a href="google.com" style={{fontSize:"15px"}} ><button className="text-white bg-gradient-to-r from-purple-500 to-purple-300 hover:bg-gradient-to-l  focus:outline-none  font-medium rounded-lg text-2xl px-5 mt-2 py-2.5 text-center">Launch App</button></a></li>
+                <li><a href="google.com" style={{fontSize:"15px"}} ><button className="text-white bg-gradient-to-r from-purple-500 to-purple-300 hover:bg-gradient-to-l  focus:outline-none  font-medium  text-2xl  text-center">Launch App</button></a></li>
                 {/* <li><a href="#">Features</a></li>
                 <li><a href="#">Services</a></li>
                 <li><a href="#">Roadmap</a></li> */}
