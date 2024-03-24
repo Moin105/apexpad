@@ -2,6 +2,8 @@ header {
   display: flex;
   justify-content: space-between;
   margin: 15px 2%;
+  position: relative;
+  z-index: 111;
 }
 header .figure {
   margin: 0;

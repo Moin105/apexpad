@@ -43,4 +43,6 @@
     animation: half-rotate-up-down 3s infinite alternate;
   }
   
-  
+  a{
+    cursor: pointer;
+  }
