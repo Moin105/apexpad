@@ -57,14 +57,13 @@ export const Hero = () => {
           </h1>
 
           <p className="text-white  w-full text-left	mt-10  pl-20" style={{fontSize:"17px"}}>
-          A Suite of Reliable And Secure DeFi Tools.
-We provide a range of innovative, dependable and decentralized infrastructure on Solana, Injective, Sei And Near Protocol blockchains
-          </p>
+          A Suite of Reliable And Secure DeFi Tools.<br></br>
+          We provide a wide range of innovative, dependable and decentralized infrastructure on Solana, Injective, Sei And Near Protocol blockchains.    </p>
           <div className="banner-buttons">
-            <button className="text-white bg-gradient-to-r from-purple-500 to-purple-300 hover:bg-gradient-to-l  focus:outline-none  font-medium rounded-lg text-base px-5 mt-2 py-2.5 text-center">
+            <button className="text-white bg-gradient-to-r from-purple-500 to-purple-300 hover:bg-gradient-to-l  focus:outline-none  font-medium rounded-lg text-base px-5  py-2.5 text-center">
               Launch App
             </button>
-            <button className="text-white bg-gradient-to-r from-purple-500 to-purple-300 hover:bg-gradient-to-l  focus:outline-none  font-medium rounded-lg text-base px-5 mt-2 py-2.5 text-center">
+            <button>
               Documentation
             </button>
           </div>
