@@ -31,8 +31,6 @@
   display: flex;
   gap: 20px;
   justify-content: center;
-}
-.footer .container .figure ul .li {
   margin: 0px 0px 0px 40px;
 }
 .footer .container nav {

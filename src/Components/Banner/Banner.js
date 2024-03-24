@@ -51,7 +51,7 @@ export const Hero = () => {
         className="h-screen flex justify-center items-center w-full  "
         style={{ opacity, scale, zIndex: -1 }}
       >
-        <div className=" w-2/4	gap-6 flex flex-col items-center">
+        <div className=" w-2/4	gap-6 flex flex-col pt-10 items-center">
           <h1 className="text-white text-8xl text-left font-extrabold	w-full  pl-20">
             Welcome To <br></br> ApexPad
           </h1>
