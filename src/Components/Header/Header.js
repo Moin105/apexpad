@@ -8,7 +8,7 @@ function Header() {
     <header>
         <div className='figure'>
             <img src={Logo} alt="ApexPad logo" />
-            {/* <h2>ApexPad</h2> */}
+            <h2>ApexPad</h2>
         </div>
         <nav>
             <ul>
