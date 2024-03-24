@@ -17,18 +17,19 @@ function Footer() {
  </div>
             <ul>
                 <li><a href="twitter.com" target='_blank' style={{fontSize:"27px"}} ><FaXTwitter/></a></li>
-                <li><a href="google.com" target='_blank' style={{fontSize:"27px"}} ><FaTelegram/></a></li>
+                <li><a href="google.com" target='_blank' className='li' style={{fontSize:"27px"}} ><FaTelegram/></a></li>
             </ul>
         </div>
         <nav>
         <ul className='ul'>
               <li><a href="twitter.com" target='_blank' style={{fontSize:"15px"}}>Terms of Service</a></li>
               <li><a href="twitter.com" target='_blank' style={{fontSize:"15px"}}>Privacy Policy</a></li>
-            </ul>
-        <ul className='ul'>
-        <li><a href="twitter.com" target='_blank' style={{fontSize:"15px"}}>Audits</a></li>
+              <li><a href="twitter.com" target='_blank' style={{fontSize:"15px"}}>Audits</a></li>
               <li><a href="twitter.com" target='_blank' style={{fontSize:"15px"}}>Documentation</a></li>
             </ul>
+        {/* <ul className='ul'>
+    
+            </ul> */}
         
           
         </nav>

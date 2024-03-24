@@ -27,6 +27,11 @@
         ul{
             display: flex;
             gap: 20px;
+            justify-content:center;
+            .li{
+              margin:  0px 0px 0px 40px;
+
+            }
         }
     }
     nav{

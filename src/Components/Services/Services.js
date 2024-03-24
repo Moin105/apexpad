@@ -57,16 +57,20 @@ export const StreamlinedExperience = () => {
             y: "-50%",
             x: "-50%",
           }}
-          className="absolute left-1/2 top-1/2  leading-tight text-white"
+          className="absolute left-1/2 top-1/2 gap-20 leading-tight text-white"
         >
-          <motion.p className="text-[8.8rem]">
-            Apexpad Services
+          <motion.p className="text-[7.8rem]">
+            ApexPad Services
             {/* Defi. */}
           </motion.p>
           <motion.p className="text-[1.8rem] pt-8 text-justify	">
-          ApexPad (formerly SolTools) is a platform dedicated to revolutionalizing <br></br>the DeFi space. Our team of experienced blockchain professionals and enthusiasts<br></br> is driven by a shared vision for the potential of blockchain technology.<br></br>
-           Through our products and services, we provide a comprehensive and user-friendly <br></br>support ecosystem for the safety of decentralized finance.
-          </motion.p>
+          ApexPad (formerly SolTools) is a platform dedicated to revolutionalizing <br></br>
+the DeFi space. Our team of experienced blockchain professionals and enthusiasts is driven by <br></br>
+a shared vision for the potential of blockchain technology.<br></br>
+Through our innovative, secure and reliable products and services, we provide a<br></br>
+ comprehensive and user-friendly support ecosystem tools and infrastructure for the safety of <br></br>
+ decentralized finance. Our wide range of products include LP and token lockers, token<br></br>
+  creator and launchpad on the Solana, Injective, Sei and Near Protocol blockchains       </motion.p>
         </motion.div>
 
         <span className="absolute left-[calc(50%*var(--scale)+50%)] top-0 z-10 h-full w-[50vw] origin-left scale-[var(--scale)] bg-background opacity-[var(--opacity-border)]" />
