@@ -24,7 +24,7 @@ function Header() {
         </div>
         <nav>
             <ul>
-            <li><a href="twitter.com" style={{fontSize:"15px"}} className=' hover:text-indigo-500 focus:outline-none focus:ring-1 focus:ring-indigo-500'>Audits</a></li> 
+            <li><a href="twitter.com" style={{fontSize:"15px"}} className=' hover:text-indigo-500 focus:outline-none focus:ring-1 focus:ring-indigo-500'>APIs</a></li> 
 
             <Dropdown text="Token Creator" options={["Coming Soon"]} />
             <Dropdown text="Launchpad" options={["Coming Soon"]} />

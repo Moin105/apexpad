@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { useScroll, useTransform, motion } from "framer-motion";
-import Logo from "../../Assets/logo.png";
+import Logos from '../../Assets/cognito.png'
 import coin from "../../Assets/coin.png";
 import chart from "../../Assets/Clay.png";
 import "./banner.css";
@@ -66,6 +66,10 @@ export const Hero = () => {
             <button>
               Documentation
             </button>
+          </div>
+          <div className="logoaudit">
+          Audited By
+            <img src={Logos} alt="ApexPad logo" />
           </div>
         </div>
         <div className=" w-2/4	 flex flex-col items-center ">

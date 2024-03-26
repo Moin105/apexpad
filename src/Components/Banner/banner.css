@@ -17,4 +17,20 @@
 .banner-content {
   gap: 20px;
   display: flex;
+}
+
+.logoaudit {
+  display: flex;
+  align-items: center;
+  padding: 0px 0px 0px 90px;
+  width: 100%;
+  gap: 10px;
+  font-size: 14px;
+  color: white;
+}
+.logoaudit img {
+  width: 165px;
+  height: 40px;
+  -o-object-fit: contain;
+     object-fit: contain;
 }/*# sourceMappingURL=banner.css.map */

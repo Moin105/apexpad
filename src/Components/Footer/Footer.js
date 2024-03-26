@@ -22,6 +22,10 @@ function Footer() {
         </div>
         <nav>
         <ul className='ul'>
+              <li><a href="twitter.com" target='_blank' style={{fontSize:"15px"}}>APIs</a></li>
+              <li><a href="twitter.com" target='_blank' style={{fontSize:"15px"}}>Fees</a></li>
+        </ul>
+        <ul className='ul'>
               <li><a href="twitter.com" target='_blank' style={{fontSize:"15px"}}>Terms of Service</a></li>
               <li><a href="twitter.com" target='_blank' style={{fontSize:"15px"}}>Privacy Policy</a></li>
               <li><a href="twitter.com" target='_blank' style={{fontSize:"15px"}}>Audits</a></li>

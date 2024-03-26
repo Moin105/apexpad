@@ -20,3 +20,17 @@
     gap:20px;
     display:flex;
   }
+  .logoaudit{
+    display: flex;
+    align-items: center;
+    padding:0px 0px 0px 90px;
+    width: 100%;
+    gap: 10px;
+    font-size: 14px;
+    color: white;
+    img{
+      width: 165px;
+      height: 40px;
+      object-fit: contain;
+    }
+  }
