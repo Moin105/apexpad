@@ -1,13 +1,22 @@
-import React from 'react'
+import React,{useState} from 'react'
 import Logo from '../../Assets/logo.png'
 import './style.css'
 import Dropdown from '../Dropdown/Dropdown'
 import prevlogo from '../../Assets/soltools.png'
+import { IoMdMenu } from "react-icons/io";
+import Nav from './Nav'
+import { IoMdArrowDroprightCircle } from "react-icons/io";
+
 import { MdClose } from 'react-icons/md'
 function Header() {
   const  [show,setShow]= React.useState(true)
+  const [nav, setNav] = useState(false);
+  const navHandle = () => {
+    setNav(!nav);
+  };
   return (
-    <div style={{display:'block'}}>
+    <div style={{display:'block',width: "100%",
+    position: "fixed",zIndex:"11111"}}>
 
  {show ?   <div className='top'>
             <img src={prevlogo} alt="ApexPad logo" /> is now
@@ -22,7 +31,8 @@ function Header() {
             <img src={Logo} alt="ApexPad logo" />
             <h2>ApexPad</h2>
         </div>
-        <nav>
+        <div className='flex'>
+        <nav className='desktop-fide'>
             <ul>
             <li><a href="twitter.com" style={{fontSize:"15px"}} className=' hover:text-indigo-500 focus:outline-none focus:ring-1 focus:ring-indigo-500'>APIs</a></li> 
 
@@ -39,7 +49,15 @@ function Header() {
                 <li><a href="#">Roadmap</a></li> */}
             </ul>
         </nav>
+            <span onClick={navHandle} className="navbar">
+          <figure className="ham">
+          <IoMdMenu />
+          </figure>
+        </span>
+        </div>
     </header>
+    {nav && <Nav setNav={setNav} />}
+
     </div>
   )
 }

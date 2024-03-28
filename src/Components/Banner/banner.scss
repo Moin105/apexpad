@@ -1,36 +1,74 @@
-
-  
-  .banner-buttons{
-    display: flex;
-    width: 100%;
-    gap: 20px;
-    padding: 10px 0px 0px 50px;
-    justify-content: flex-start;
-    button{
-      border: 2px solid blueviolet;
-      padding: 10px 13px ;
-      // background: transparent;
-      color: white;
-      border-radius: 40px;
-      font-size: 18px;
-      height:50px;
-  }
-  }
-  .banner-content{
-    gap:20px;
-    display:flex;
-  }
-  .logoaudit{
-    display: flex;
-    align-items: center;
-    padding:0px 0px 0px 90px;
-    width: 100%;
-    gap: 10px;
-    font-size: 14px;
+.banner-buttons {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  padding: 10px 0px 0px 50px;
+  justify-content: flex-start;
+  button {
+    border: 2px solid blueviolet;
+    padding: 10px 13px;
+    // background: transparent;
     color: white;
-    img{
-      width: 165px;
-      height: 40px;
-      object-fit: contain;
+    border-radius: 40px;
+    font-size: 18px;
+    height: 50px;
+  }
+}
+.banner-content {
+  gap: 20px;
+  display: flex;
+}
+.logoaudit {
+  display: flex;
+  align-items: center;
+  padding: 0px 0px 0px 90px;
+  width: 100%;
+  gap: 10px;
+  font-size: 14px;
+  color: white;
+  img {
+    width: 165px;
+    height: 40px;
+    object-fit: contain;
+  }
+}
+@media only screen and (max-width: 1030px) {
+  .gitfo {
+    .imoge {
+      width: 150px !important;
+    }
+    h1 {
+      font-size: 48px !important;
+    }
+   
+  }
+}
+@media only screen and (max-width: 900px) {
+  .tifgo {
+    width: 80% !important;
+    margin: 0 auto !important;
+    .h1 {
+      font-size: 48px !important;
+      padding: 0px !important;
+    }
+    p {
+      padding: 0px !important;
+    }
+    .banner-buttons{
+      padding: 10px 0px 0px 0px !important;
+      justify-content: center;
+    
+    }
+    .logoaudit {
+      padding: 0px 0px 0px 0px !important;
+      justify-content: center;
+    
     }
   }
+  .gitfo {
+    display: none !important;
+    .imoge {
+      width: 150px !important;
+    }
+  }
+}

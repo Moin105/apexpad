@@ -1,4 +1,10 @@
 .service {
   display: flex;
   flex-direction: column;
+}
+
+@media only screen and (max-width: 1030px) {
+  .secsasad {
+    display: none;
+  }
 }/*# sourceMappingURL=service.css.map */

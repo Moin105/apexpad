@@ -13,6 +13,9 @@ function App() {
      <Header />
      <Hero/>
      {/* <div className="moving-gradient"></div> */}
+     <div className='servicesde'>
+        <h1>Apexpad Services</h1>
+     </div>
      <StreamlinedExperience/>
      <MoreFeatures/>
      {/* <Aboutus/> */}

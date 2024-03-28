@@ -33,4 +33,40 @@
   height: 40px;
   -o-object-fit: contain;
      object-fit: contain;
+}
+
+@media only screen and (max-width: 1030px) {
+  .gitfo .imoge {
+    width: 150px !important;
+  }
+  .gitfo h1 {
+    font-size: 48px !important;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .tifgo {
+    width: 80% !important;
+    margin: 0 auto !important;
+  }
+  .tifgo .h1 {
+    font-size: 48px !important;
+    padding: 0px !important;
+  }
+  .tifgo p {
+    padding: 0px !important;
+  }
+  .tifgo .banner-buttons {
+    padding: 10px 0px 0px 0px !important;
+    justify-content: center;
+  }
+  .tifgo .logoaudit {
+    padding: 0px 0px 0px 0px !important;
+    justify-content: center;
+  }
+  .gitfo {
+    display: none !important;
+  }
+  .gitfo .imoge {
+    width: 150px !important;
+  }
 }/*# sourceMappingURL=banner.css.map */

@@ -51,8 +51,8 @@ export const Hero = () => {
         className="h-screen flex justify-center items-center w-full  "
         style={{ opacity, scale, zIndex: -1 }}
       >
-        <div className=" w-2/4	gap-6 flex flex-col pt-10 items-center">
-          <h1 className="text-white text-8xl text-left font-extrabold	w-full  pl-20">
+        <div className="tifgo w-2/4	gap-6 flex flex-col pt-10 items-center">
+          <h1 className="h1 text-white text-8xl text-left font-extrabold	w-full  pl-20">
             Welcome To <br></br> ApexPad
           </h1>
 
@@ -72,16 +72,16 @@ export const Hero = () => {
             <img src={Logos} alt="ApexPad logo" />
           </div>
         </div>
-        <div className=" w-2/4	 flex flex-col items-center ">
+        <div className="gitfo w-2/4	 flex flex-col items-center ">
           <div className="flex justify-center items-center space-x-8">
-            <div className="relative h-96 w-96">
+            <div className="relative h-96 w-96 imoge">
               <img
                 src={chart}
                 className="absolute h-full w-full object-contain animate-half-rotate-up-down"
                 alt="chart"
               />
             </div>
-            <div className="relative h-96 w-96">
+            <div className="relative h-96 w-96 imoge">
               <img
                 src={coin}
                 className="absolute h-full w-full object-contain animate-half-rotate-up-down"
