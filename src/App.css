@@ -9,8 +9,29 @@ body{
   font-size: 38px;
   text-align: center;
   width: 100%;
+  justify-content: center;
   display: flex;
   color: white;
   padding-bottom: 50px;
 }
 }
+.heading{
+  font-size: 32px;
+  text-align: center;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  color: white;
+  padding-bottom: 50px;
+}
+@media only screen and (max-width: 1030px) {
+  .heading{
+    font-size: 28px;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    color: white;
+    padding-bottom: 50px;
+  }
+  }

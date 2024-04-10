@@ -16,7 +16,7 @@ function Dropdown({ options,text }) {
   };
 
   return (
-    <div className="relative inline-block text-left" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+    <div className="relative inline-block text-left" onMouseEnter={handleMouseEnter} >
       <div>
         <button
           type="button"
@@ -27,10 +27,10 @@ function Dropdown({ options,text }) {
         </button>
       </div>
       {isOpen && (
-        <div className="origin-top-right absolute right-0 w-full mt-2  rounded-md drop-shadow-xl ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabIndex="-1">
+        <div onMouseLeave={handleMouseLeave} className="origin-top-right absolute right-0 w-full mt-2  rounded-md drop-shadow-xl ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabIndex="-1">
           <div className="py-1" role="none">
             {options.map((option, index) => (
-              <a href="#" key={index} className="block px-4 py-2 text-lg text-white hover:text-indigo-500" role="menuitem" tabIndex="-1" id={`menu-item-${index}`}>{option}</a>
+              <a href={option.link} key={index} className={`block px-4 py-2 text-lg text-white hover:text-indigo-500 ${option.cname}`} role="menuitem" tabIndex="-1" id={`menu-item-${index}`}>{option.name}</a>
             ))}
           </div>
         </div>

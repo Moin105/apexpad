@@ -63,6 +63,16 @@ header .desktop-fide ul {
 }
 header .desktop-fide ul li {
   list-style: none;
+  position: relative;
+}
+header .desktop-fide ul li .sife {
+  position: absolute;
+  background-color: blueviolet;
+  padding: 2px 5px;
+  right: -10px;
+  color: white;
+  border-radius: 10px;
+  bottom: -15px;
 }
 header .desktop-fide ul li a {
   text-decoration: none;
@@ -113,6 +123,34 @@ header .desktop-fide ul li a button {
 .mobilenav .mobilebar figure {
   position: relative;
   margin: 36px 0px 32px 46px;
+}
+.mobilenav .mobilebar ul {
+  gap: 20px;
+}
+.mobilenav .mobilebar ul li {
+  position: relative;
+}
+.mobilenav .mobilebar ul .sife {
+  position: absolute;
+  background-color: blueviolet;
+  padding: 2px 5px;
+  right: -10px;
+  border-radius: 10px;
+  color: white;
+  bottom: -15px;
+}
+.mobilenav .mobilebar ul a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+.mobilenav .mobilebar ul a button {
+  border: 2px solid blueviolet;
+  padding: 10px 13px;
+  color: white;
+  border-radius: 40px;
+  font-size: 18px;
 }
 .mobilenav .mobilebar .uppernav {
   padding: 33px 0px 0px 46px;
